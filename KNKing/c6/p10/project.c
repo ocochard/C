@@ -11,9 +11,7 @@ int main(void)
 		scanf("%d/%d/%d", &m, &d, &y);
 		if (d == 0 && m == 0 && y == 0) break;
 		idid= y*365 + m*31 + d;
-		if ( eid == 0 ) {
-			eid=idid;
-		} else if (idid<eid) {
+		if ( eid == 0 || idid<eid ) {
 			eid=idid;
 		}
 	}
