@@ -1,2 +1,2 @@
 program:
-	cc -Weverything -std=c11 -o exercice exercice.c
+	cc -Wall -Wextra -pedantic -std=c11 -o exercice exercice.c

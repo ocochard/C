@@ -1,2 +1,2 @@
 program:
-	cc -Weverything -std=c11 -o pun pun.c
+	cc -Wall -Wextra -pedantic -std=c11 -o pun pun.c
