@@ -9,6 +9,13 @@ Some ressources online:
 
 ## Tips & Tricks
 
+### Default compiler option
+
+[During dev](https://nullprogram.com/blog/2023/04/29/):
+```
+cc -g3 -Wall -Wextra -Wconversion -Wdouble-promotion -fsanitize=undefined -fsanitize-trap
+```
+
 ### Types
 
 Which type is time_t on my OS ?
