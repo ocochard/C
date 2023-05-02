@@ -5,7 +5,10 @@
 Some ressources online:
  - [C programming a modern approach](http://knking.com/books/c2/index.html)
  - [How to C in 2016](https://matt.sh/howto-c)
+ - [A critique of "How to C in 2016"](https://github.com/Keith-S-Thompson/how-to-c-response)
+ - [learn-c.org](https://www.learn-c.org/)
  - [50+ Data Structure and Algorithms Interview Questions for Programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
+ - [ebook: Modern C](https://inria.hal.science/hal-02383654v1/file/ModernC.pdf)
 
 ## Tips & Tricks
 
@@ -15,6 +18,16 @@ Some ressources online:
 ```
 cc -g3 -Wall -Wextra -Wconversion -Wdouble-promotion -fsanitize=undefined -fsanitize-trap
 ```
+
+Or:
+```
+cc -std=c11 -pedantic
+```
+
+## Formating
+
+- indent
+- clang-format
 
 ### Types
 
