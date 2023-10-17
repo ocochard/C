@@ -11,6 +11,7 @@ Some ressources online:
  - [Driving compilers](https://fabiensanglard.net/dc/index.php) about how a compiler and linker works
  - All [Beej's Guides](https://beej.us/guide/), like C programming, C Library reference, Network programming
  - [50+ Data Structure and Algorithms Interview Questions for Programmers](https://hackernoon.com/50-data-structure-and-algorithms-interview-questions-for-programmers-b4b1ac61f5b0)
+ - [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html)
 
 ## Tips & Tricks
 
